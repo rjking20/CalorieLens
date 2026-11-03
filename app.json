@@ -42,7 +42,15 @@
           "photosPermission": "Allow CalorieLens to access your photos to analyze food images."
         }
       ],
-      "expo-sqlite"
+      "expo-sqlite",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
     ],
     "extra": {
       "router": {
